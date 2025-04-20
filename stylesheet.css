@@ -1,0 +1,40 @@
+body {
+    background-color:silver;
+    background-image: url(/images/Paper.jpg);
+    background-repeat: repeat;
+    font-family: "Roboto", sans-serif;
+    line-height: 2em;
+    text-align: center;
+}
+
+h1 {
+    color:darkslateblue;
+    font-size: 4em;
+    text-decoration: underline;
+    text-align: center;
+}
+
+h2 {
+    color:darkslategray;
+    font-size: 2em;
+    text-transform: lowercase;
+    text-align: center;
+}
+ul#mainNav {
+    list-style-type: none;
+}
+
+img.cat-img {
+    width: 60%;
+    height: 60%;
+    text-align: center;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: aqua;
+}
+a:hover {
+    color:royalblue;
+}
