@@ -1,6 +1,6 @@
 body {
     background-color:silver;
-    background-image: url(/images/Paper.jpg);
+    background-image: url("/images/Paper.jpg");
     background-repeat: repeat;
     font-family: "Roboto", sans-serif;
     line-height: 2em;
@@ -12,6 +12,7 @@ h1 {
     font-size: 4em;
     text-decoration: underline;
     text-align: center;
+    text-transform: uppercase;
 }
 
 h2 {
@@ -26,7 +27,7 @@ ul#mainNav {
 
 img.cat-img {
     width: 60%;
-    height: 60%;
+    height: auto;
     text-align: center;
 }
 a:link {
