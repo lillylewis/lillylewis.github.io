@@ -127,3 +127,27 @@ a:hover {
 
 /* End Columns CSS */
 
+@media only screen and (max-width: 500px) {
+    .col-5, .col-7 {
+        width: 100%; margin: 0%; 
+    } 
+    nav, header, footer {
+        text-align: center;
+    }
+    h1 {
+        font-size: 2em;
+        text-align: center;
+    }
+    h2 {
+        font-size: 2em;
+        text-align: center;
+    }
+    h3 {
+        font-size: 2em;
+        text-align: center;
+    }
+    body {
+        font-size: 1em;
+    }
+} 
+ 
