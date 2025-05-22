@@ -3,30 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="stylesheet.css" type="text/css" rel="stylesheet">
+
+    <link href="css/normalize.css" type="text/css" rel="stylesheet">
+
+    <link href="css/skeleton.css" type="text/css" rel="stylesheet">
+
+    <link href="css/customstylesheet.css" type="text/css" rel="stylesheet">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
    <title>Lilly Lewis</title>
 </head>
-<body>
-    <img id="Flower-Image" src="images/Flower_Icon.png">
-    <div id="wrapper">
- <header> 
-    <h1>Lilly Lewis</h1>
-    <h2>Digital Design 2</h2>
-
-    <h3>Spring 2025 </h3>
-    <nav>
-        <ul id="mainNav"> 
-            <li> <a href="https://www.figma.com/proto/vfbwLc35oLPaLkQhnSM5R6/DSGN?page-id=110%3A631&node-id=110-633&p=f&viewport=697%2C421%2C0.09&t=Kx5aZ0vh4AYYygUP-1&scaling=scale-down&content-scaling=fixed">project 1 Web</a></li>
-            <li> <a href="https://www.figma.com/proto/vfbwLc35oLPaLkQhnSM5R6/DSGN?page-id=270%3A221&node-id=270-238&p=f&viewport=1543%2C909%2C0.27&t=dKJ6DS0VQ0ALxVmV-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=270%3A238">project 1 Mobile</a></li>
-            <li> <a href="https://drive.google.com/file/d/1C9rDNU64tsAnUQD3eLazmdiw6ZHtVZMe/view?usp=sharing">project 1 process</a></li>
-            <li> <a href=”project-2/index.html”>project 2</a></li>
-            <li> <a href=”project-2-process/index.html”>project 2 process</a></li>
-        </ul>
-    </nav>
- </header>
+<body class="container">
+    <header class="row">
+        <nav>
+            <ul> 
+                <li> <a href="https://www.figma.com/proto/vfbwLc35oLPaLkQhnSM5R6/DSGN?page-id=110%3A631&node-id=110-633&p=f&viewport=697%2C421%2C0.09&t=Kx5aZ0vh4AYYygUP-1&scaling=scale-down&content-scaling=fixed">project 1 Web</a></li>
+                <li> <a href="https://www.figma.com/proto/vfbwLc35oLPaLkQhnSM5R6/DSGN?page-id=270%3A221&node-id=270-238&p=f&viewport=1543%2C909%2C0.27&t=dKJ6DS0VQ0ALxVmV-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=270%3A238">project 1 Mobile</a></li>
+                <li> <a href="https://drive.google.com/file/d/1C9rDNU64tsAnUQD3eLazmdiw6ZHtVZMe/view?usp=sharing">project 1 process</a></li>
+                <li> <a href=”project-2/index.html”>project 2</a></li>
+                <li> <a href=”project-2-process/index.html”>project 2 process</a></li>
+            </ul>
+        </nav>
+        <h1>Lilly Lewis</h1>
+        <h2>Digital Design 2</h2>
+        <h3>Spring 2025 </h3>
+    </header>
 
  <article>
     <img class="cat-img" src="images/cat.jpeg"/>
@@ -40,52 +43,52 @@
  </article>
  <br>
  <hr>
- <div id="Container">
+ <div id="container">
     <h2>Examples of Work</h2>
         <p>Since I do a lot of illustration and design work, I thought I'd showcase some of it here</p>
     <br>
-    <div class="Row columns col-12">
-     <div class="columns col-5">
-            <img class="Dragon-Image"src="images/Dragon_Image.png">
+    <div class="row clear-left">
+     <div class="five columns">
+        <img class="u-full-width" src="images/Dragon_Image.png">
      </div>
-     <div class="columns col-7">
-            <div class="textPad">
+        <div class="seven columns">
+            <div class="textarea">
                 <h3>Dragon illustration</h3>
                 <p>Since Illustration is something I'm really passionate about I thought I would show off an Illustration I did. I made this dragon a little while ago on Procreate and I was really happy with the way it turned out</p>
             </div>
         </div>
     </div>
  
-    <div class="Row columns col-12">    
-        <div class="columns col-5">
-            <img class="Edit-Illustration"src="images/Editorial_Illustration.png">
+    <div class="row clear-left">    
+        <div class="five columns">
+            <img class="u-full-width"src="images/Editorial_Illustration.png">
         </div>
-        <div class="columns col-7">
-            <div class="textPad">
+            <div class="seven columns">
+             <div class="textarea">
                 <h3>Editorial Illustration</h3>
                 <p>As a project for my Type 2 class, I made an editorial illustration for the New York Times Book Review section on the article "The Collapse of Romance Writers in America"</p>
             </div>
         </div>
     </div>
 
-    <div class="Row columns col-12">
-        <div class="columns col-5">
-            <img class="LOTR-Drawing"src="images/LOTR_Drawing.JPG">
+    <div class="row">
+        <div class="five columns">
+            <img class="u-full-width" src="images/LOTR_Drawing.JPG">
         </div>
-        <div class="columns col-7">
-            <div class="textPad">
-                <h3>Fan Art Illustrations</h3>
-             <p>Theres nothing I love more than watching movies. I am a big fan of anything film related, so it's only natural that I would draw a lot of fan art.</p>
+            <div class="seven columns">
+                <div class="textarea">
+                    <h3>Fan Art Illustrations</h3>
+                 <p>Theres nothing I love more than watching movies. I am a big fan of anything film related, so it's only natural that I would draw a lot of fan art.</p>
             </div>
-     </div>
+        </div>
     </div>
-</div>
  <footer class="clear-left">
     <br>
     <hr>
     <p><b>&copy; copyright 2025</b></p>
     <a href="mailto:lillylewis066@gmail.com">lillylewis066@gmail.com</a>
  </footer>
+</div>
 
 </body>
 </html>
