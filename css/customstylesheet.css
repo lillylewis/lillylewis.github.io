@@ -6,6 +6,24 @@ img {
     padding:0%;
 }
 
+img#Flower_Icon {
+    position: relative;
+    width: 200px;
+    animation-name: flower;
+    animation-duration: 7s;
+    transition: width 2s, height 2s;
+}
+img#Flower_Icon:hover {  
+    width: 300px;
+}
+ 
+ @keyframes flower { 
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+    
+} 
+
 ul {
     list-style-type: none;
 }
