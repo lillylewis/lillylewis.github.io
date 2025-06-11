@@ -149,5 +149,9 @@ a:hover {
     body {
         font-size: 1em;
     }
+    .custom-frame {
+        position: absolute;
+        align-items: center;
+    }
 } 
  

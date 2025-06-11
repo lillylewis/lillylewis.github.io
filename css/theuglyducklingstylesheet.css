@@ -3,8 +3,31 @@ body {
     font-family: "EB Garamond", serif;
     font-size: 2em;
     padding: 2%;
+    animation: 1.5s fadeInUp;
+}
+@keyframes fadeInUp {
+    0% {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
+ 
+
+#heading {
+    position:relative;
+    top: -100px;
+    text-align: center;
+    font-size: 24pt;
 }
 
+.border-image {
+    position: relative;
+    top:-250px;
+}
 .text-box-2 {
     text-align: center;
     position:relative;
@@ -31,12 +54,16 @@ body {
     display: block;
     margin: auto;
     justify-content: center;
-    padding-top: 10%;
+    padding-top: 22%;
     padding-bottom: 10%
 }
 
 .eggs {
     padding-bottom: 10%;
+}
+
+.swan-egg:hover {
+    transform: scale(1.25);
 }
 
 .duck {
@@ -89,6 +116,12 @@ body {
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
+.swan-transformation:hover {
+    transform: scale(1.15);
+}
+
+
 
 .image-container {
     position: relative;
@@ -152,5 +185,79 @@ h2 {
     position: relative;
     top: -30px;
     right: 35px;
+}
+
+@media only screen and (max-width: 500px) {
+    .body {
+        justify-content: center;
+    }
+    .text-box-1 {
+        text-align: center;
+        padding-top:40%;
+    }
+    .text-box-2, .text-box-3, .text-box-4, .text-box-5 {
+        text-align: center;
+        padding-bottom: 15%;
+
+    }
+    .text-box-6 {
+        text-align: center;
+    }
+   
+    #heading {
+        padding-top: 10%;
+        text-align: center;
+        font-size: 1.20em;
+    }
+    .border-image {
+        padding-top: 20%;
+    }
+    .duck-egg {
+        display: none;
+    }
+
+    .ugly-duckling {
+        position: relative;
+    }
+    .swans {
+        width: 300px;
+    }
+
+    .frame {
+        margin:auto;
+        position:relative;
+        width: 75%;
+        padding:5%;
+    }
+    .secondframe, .thirdframe {
+        margin: auto;
+        width: 75%;
+        padding: 5%;
+    }
+    .custom-frame {
+        margin: auto;
+        padding: 5%;
+    }
+
+    .overlay-text {
+        font-size: 0.90em;
+    }
+  
+    .motherduck {
+        width: 95%;
+        position:absolute;
+        right: 20px;
+        top: 300px;
+    }
+    .duck, .duck1, .duck2, .duck3, .duck4 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .duck, .duck1, .duck2, .duck3, .duck4 {
+        display: none;
+    }
+
 }
 
